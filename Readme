@@ -1,0 +1,47 @@
+This is a simple, two-player Ludo game implemented in Unity. You can play as Red or Blue. The project includes:
+
+A main menu with Play and Quit buttons
+
+Dice roll and turn-based gameplay
+
+Clickable tokens and animated movement
+
+Clean, single-scene or menu-to-game scene flow (see Build instructions)
+
+How to Run
+Open in Unity Editor
+
+Open the project folder in Unity.
+
+Make sure both MainMenuScene and GameScene are present and added to File → Build Settings.
+
+Play in Editor
+
+Press Play in the Editor.
+
+The main menu will appear. Click Play to start the game.
+
+Build Desktop Version
+
+Go to File → Build Settings.
+
+Confirm both scenes are listed (menu first).
+
+Click Build, choose a folder, and run the generated executable.
+
+Controls
+Menu Scene:
+
+Play — Starts the game.
+
+Quit — Exits the application.
+
+Game Scene:
+
+Roll Dice button — Roll to move tokens.
+
+Click your token to move if allowed on your turn.
+
+If you roll a 6, you get an extra turn.
+
+No win screen — play until one player wins manually.
